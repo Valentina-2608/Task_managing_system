@@ -21,3 +21,22 @@
     color:darkred;
     text-align: center;
 }
+
+.block_new_task{
+    width:90%;
+    margin-left: 5%;
+    height:50px;
+}
+
+#add_task{
+    background-color: darkblue;
+    color:white;
+    border:none;
+    border-radius: 3px;
+    font-size:20px;
+    padding:10px;
+}
+
+#add_task:hover{
+    cursor:pointer;
+}
