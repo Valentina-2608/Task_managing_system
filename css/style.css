@@ -40,3 +40,10 @@
 #add_task:hover{
     cursor:pointer;
 }
+
+.tasks_board{
+    width:90%;
+    margin-left: 5%;
+    height:700px;
+    background-color:lightblue;
+}
