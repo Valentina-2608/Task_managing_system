@@ -100,3 +100,13 @@
     text-align: center;
     color:white;
 }
+
+.new_task{
+    width:60%;
+    height:600px;
+    background-color: white;
+    position: absolute;
+    top:127px;
+    left:20%;
+
+}
