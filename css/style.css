@@ -44,6 +44,17 @@
 .tasks_board{
     width:90%;
     margin-left: 5%;
+    margin-top: 40px;
     height:700px;
     background-color:lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.board_block{
+    width:30%;
+    height:700px;
+    background-color:yellow;
+
 }
