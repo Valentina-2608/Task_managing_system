@@ -116,7 +116,7 @@
 
 .caption_4{
     width:80%;
-    height:25px;
+    height:80px;
     margin-left: 10%;
     font-size:32px;
     padding-top: 40px;
@@ -124,4 +124,14 @@
     border-radius: 10px;
     text-align: center;
     color:black;
+}
+
+
+.new_task_elements{
+    width:80%;
+    height:300px;
+    margin-left: 10%;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
 }
