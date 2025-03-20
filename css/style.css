@@ -103,7 +103,7 @@
 
 .new_task{
     width:60%;
-    height:550px;
+    height:580px;
     background-color: white;
     position: absolute;
     top:127px;
@@ -140,7 +140,7 @@
     height: 90px;
     display: flex;
     flex-direction: column;
-    margin-top: 10px;
+    margin-top: 25px;
 }
 
 #task_title{
