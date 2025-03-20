@@ -25,6 +25,31 @@
     </div>
     <div class="new_task">
         <div class="caption_4">Add new task</div>
+        <form id="form_task">
+            <div class="elem">
+                <label for="task_title">Title</label><br>
+                <input type="text" id="task_title">
+            </div>
+            <div class="elem">
+                <label for="task_description">Description</label><br>
+                <textarea id="task_description" rows="5"></textarea>
+            </div>
+            <div class="elem_date">
+                <div class="date_1">
+                    <label for="task_title">Start date</label><br>
+                    <input type="date" id="start_date">
+                </div>
+                <div class="date_2">
+                    <label for="task_title">End date</label><br>
+                    <input type="date" id="end_date">
+                </div>
+            </div>
+            <div class="elem">
+                <button id="btn_add">Add task</button>
+            </div>
+
+        </form>
+        
     </div>
 </div>
 <script src="script.js"></script>
