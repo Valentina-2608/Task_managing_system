@@ -196,3 +196,63 @@ label{
 #btn_add:hover{
     cursor: pointer;
 }
+
+.task{
+    width:90%;
+    height:220px;
+    background-color: white;
+    margin-left: 1%;
+    margin-top:20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    width:90%;
+    height:30px;
+    font-size:24px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 5%;
+    border-bottom: 1px grey dotted;
+    color:darkred;
+}
+
+
+.description{
+    width:90%;
+    height:70px;
+    font-size:14px;
+    margin-left: 5%;
+    margin-top: 5px;
+    border-bottom: 1px grey dotted;
+}
+
+.start, .end{
+    width:90%;
+    height:30px;
+    font-size:16px;
+    margin-left: 5%;
+    margin-top: 7px;
+    color:darkblue;
+}
+
+
+.icons{
+    width:30%;
+    height:30px;
+    font-size:16px;
+    margin-left: 5%;
+    margin-left: 65%;
+}
+
+
+.icons img{
+    margin-left: 20px;
+    height:70%;
+}
+
+.icons img:hover{
+   cursor: pointer;
+}
