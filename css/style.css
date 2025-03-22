@@ -52,7 +52,7 @@
     justify-content: space-between;
 }
 
-.board_block{
+.board_block1, .board_block2, .board_block3{
     width:30%;
     height:700px;
     background-color:yellow;
