@@ -83,7 +83,7 @@
 }
 
 .caption_1{
-    width:80%;
+    width:94%;
     height:25px;
     font-size:20px;
     padding: 10px;
@@ -96,20 +96,20 @@
 }
 
 .caption_2{
-    width:80%;
+    width:94%;
     height:25px;
     font-size:20px;
     padding: 10px;
     font-weight: bold;
     text-transform: uppercase;
     border-radius: 10px;
-    background-color:blueviolet;
+    background-color:blue;
     text-align: center;
     color:white;
 }
 
 .caption_3{
-    width:80%;
+    width:94%;
     height:25px;
     font-size:20px;
     padding: 10px;
