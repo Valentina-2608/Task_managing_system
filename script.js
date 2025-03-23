@@ -56,10 +56,12 @@ function createNewTask(){
 
     let pen=document.createElement('img');
     pen.src='img/pen.png';
+    pen.classList.add('icon_edit');
     icons.appendChild(pen);
 
     let trash=document.createElement('img');
     trash.src='img/trash.png';
+    trash.classList.add('icon_remove');
     icons.appendChild(trash);
 
     task_title.value='';
