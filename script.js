@@ -64,6 +64,11 @@ function createNewTask(){
     trash.classList.add('icon_remove');
     icons.appendChild(trash);
 
+    trash.addEventListener('click', function(event) {
+		task.parentElement.removeChild(task);
+		event.preventDefault();
+	});
+
     task_title.value='';
     task_description.value='';
     start_date.value='';
@@ -80,3 +85,5 @@ btn_close.addEventListener('click', closeWindow);
 function closeWindow(){
     new_task.style.display='none';
 }
+
+
