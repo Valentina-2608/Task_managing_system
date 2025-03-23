@@ -72,3 +72,11 @@ function createNewTask(){
 
  
 }
+
+
+
+btn_close.addEventListener('click', closeWindow);
+
+function closeWindow(){
+    new_task.style.display='none';
+}
