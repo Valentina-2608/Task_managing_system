@@ -62,6 +62,11 @@ function createNewTask(){
     trash.src='img/trash.png';
     icons.appendChild(trash);
 
+    task_title.value='';
+    task_description.value='';
+    start_date.value='';
+    end_date.value='';
+
 
  
 }
