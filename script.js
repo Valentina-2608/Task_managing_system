@@ -54,13 +54,14 @@ function createNewTask(){
     icons.classList.add('icons');
     task.appendChild(icons);
 
+    let pen=document.createElement('img');
+    pen.src='img/pen.png';
+    icons.appendChild(pen);
+
     let trash=document.createElement('img');
     trash.src='img/trash.png';
     icons.appendChild(trash);
 
 
-    let pen=document.createElement('img');
-    pen.src='img/pen.png';
-    icons.appendChild(pen);
-
+ 
 }
