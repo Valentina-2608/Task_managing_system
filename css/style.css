@@ -205,6 +205,20 @@ label{
     justify-content: space-between;
 }
 
+#btn_close{
+    width:30%;
+    font-size:20px;
+    color:white;
+    background-color: darkblue;
+    border:none;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+#btn_close:hover{
+    cursor: pointer;
+}
 
 
 .task{
