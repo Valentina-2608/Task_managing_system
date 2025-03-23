@@ -286,11 +286,12 @@ label{
 
 
 .icons{
-    width:30%;
+    width:50%;
     height:30px;
     font-size:16px;
-    margin-left: 5%;
-    margin-left: 65%;
+    margin-left: 45%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 
