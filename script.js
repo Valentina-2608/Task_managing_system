@@ -54,32 +54,34 @@ function createNewTask(){
     icons.classList.add('icons');
     task.appendChild(icons);
 
-    let pen=document.createElement('img');
-    pen.src='img/pen.png';
-    pen.classList.add('icon_edit');
-    icons.appendChild(pen);
+    let icon_edit=document.createElement('img');
+    icon_edit.src='img/pen.png';
+    icon_edit.classList.add('icon_edit');
+    icons.appendChild(icon_edit);
 
     let trash=document.createElement('img');
     trash.src='img/trash.png';
     trash.classList.add('icon_remove');
     icons.appendChild(trash);
 
+
     trash.addEventListener('click', function(event) {
 		task.parentElement.removeChild(task);
 		event.preventDefault();
 	});
+
 
     task_title.value='';
     task_description.value='';
     start_date.value='';
     end_date.value='';
 
-
- 
+   
 }
 
 
 
+    
 btn_close.addEventListener('click', closeWindow);
 
 function closeWindow(){
