@@ -308,18 +308,69 @@ label{
 
 .edit_task{
     width:50%;
-    height:580px;
-    background-color: white;
+    height:480px;
     position: absolute;
     top:127px;
     left:25%;
     display: flex;
     flex-direction: column;
-    display: none;
+    justify-content: center;
     background-color: #D6EDD6;
     border-radius: 10px;
 
 }
 
+.caption_5{
+    width:100%;
+    height:40px;
+    text-align: center;
+    color:darkred;
+    font-size:24px;
+    font-weight: bold;
+}
+
+.edit_title{
+    width:80%;
+    height:40px;
+    margin-left:10%;
+    margin-top: 20px;;
+}
+
+.edit_description{
+    width:80%;
+    height:40px;
+    margin-left:10%;
+    margin-top: 20px;;
+}
+
+.edit_task>input[type='date']{
+    width:30%;
+    margin-top: 20px;
+    margin-left:10%;
+    height:40px;
+}
+
+.edit_task>label{
+    width:100%;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 10%;
+    height:40px;
+}
 
 
+.btn1_close{
+    width:25%;
+    font-size:16px;
+    color:white;
+    background-color: darkblue;
+    border:none;
+    padding: 10px;
+    margin-top: 40px;
+    border-radius: 5px;
+    margin-left: 10%;
+}
+
+.btn1_close:hover{
+    cursor: pointer;
+}
