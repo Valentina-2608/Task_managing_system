@@ -82,11 +82,73 @@ function createNewTask(){
 
    
 }
-
+let main=document.querySelector('.main');
 function editTask(event){
-    edit_task.style.display='block';
+   
+    let edit_task=document.createElement('div');
+    edit_task.classList.add('edit_task');
+
+    let caption_5=document.createElement('div');
+    caption_5.innerHTML='Edit task';
+    caption_5.classList.add('caption_5');
+    edit_task.appendChild(caption_5);
+
+    main.appendChild(edit_task);
+    let icon_edit=event.target;
+    let icon_edit_parent=icon_edit.parentElement;
+    let icon_edit_grandparent=icon_edit_parent.parentElement;
+    let to_do_title=icon_edit_grandparent.children[0];
+    let edit_title=document.createElement('input');
+    edit_title.classList.add('edit_title');
+    edit_title.value=to_do_title.innerHTML;
+    edit_task.appendChild(edit_title);
+
+
+    edit_task.oninput = function() {
+        to_do_title.innerHTML = edit_title.value;
+    };
+
+    let to_do_description=icon_edit_grandparent.children[1];
+    let edit_description=document.createElement('input');
+    edit_description.classList.add('edit_title');
+    edit_description.value=to_do_description.innerHTML;
+    edit_task.appendChild(edit_description);
+
+    edit_description.oninput = function() {
+        to_do_description.innerHTML = edit_description.value;
+    };
+
+    let to_do_date1=icon_edit_grandparent.children[2];
+    console.log(to_do_date1);
+    let edit_date1=document.createElement('input');
+    edit_date1.setAttribute("type", "date");
+    edit_task.appendChild(edit_date1);
     
+    edit_date1.oninput = function() {
+        to_do_date1.innerHTML = 'Start: '+edit_date1.value;
+    };
+
+    let to_do_date2=icon_edit_grandparent.children[3];
+    console.log(to_do_date2);
+    let edit_date2=document.createElement('input');
+    edit_date2.setAttribute("type", "date");
+    edit_task.appendChild(edit_date2);
+    
+    edit_date2.oninput = function() {
+        to_do_date2.innerHTML = 'End: '+edit_date2.value;
+    };
+
+    let btn1_close=document.createElement('button');
+    btn1_close.innerHTML='Close';
+    btn1_close.classList.add('btn1_close');
+    edit_task.appendChild(btn1_close);
+
+
+    btn1_close.onclick = function() {
+        edit_task.style.display='none';
+    };
 }
+
 
     
 
