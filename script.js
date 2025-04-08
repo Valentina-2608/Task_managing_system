@@ -2,15 +2,13 @@
 
 let add_task=document.getElementById('add_task');
 let new_task=document.querySelector('.new_task');
+let edit_task=document.querySelector('.edit_task');
 
 add_task.addEventListener('click', addNewTask);
 
 function addNewTask(){
     new_task.style.display='block';
 }
-
-
-
 
 let task_title=document.getElementById('task_title');
 let task_description=document.getElementById('task_description');
@@ -76,16 +74,20 @@ function createNewTask(){
     start_date.value='';
     end_date.value='';
 
+    let icons_edit=document.querySelectorAll('.icon_edit');
+    for(let i=0; i < icons_edit.length; i++){
+        icons_edit[i].addEventListener('click', editTask);
+}
+
+
    
 }
 
-
+function editTask(event){
+    edit_task.style.display='block';
+    
+}
 
     
-btn_close.addEventListener('click', closeWindow);
-
-function closeWindow(){
-    new_task.style.display='none';
-}
 
 
